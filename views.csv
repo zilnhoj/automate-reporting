@@ -1,0 +1,97 @@
+service,segment,unique_page_views,page_views
+HMRC TE,register_failure,12252,21237
+HMRC TE,success_register,19166,28278
+HMRC TE,sign_in_start,27410,46708
+HMRC TE,choosing,45549,63336
+HMRC TE,cancel_register,18932,28926
+HMRC TE,matching,24858,38736
+HMRC TE,idp_chosen,38740,55242
+HMRC TE,success_sign,21986,35111
+DVLA F2D RENEW,register_failure,171,180
+DVLA F2D RENEW,success_register,7227,7364
+DVLA F2D RENEW,sign_in_start,15684,26167
+DVLA F2D RENEW,choosing,34263,43241
+DVLA F2D RENEW,cancel_register,6976,8008
+DVLA F2D RENEW,matching,13109,18062
+DVLA F2D RENEW,idp_chosen,27203,34825
+DVLA F2D RENEW,success_sign,10130,14333
+HMRC SA,register_failure,203848,371779
+HMRC SA,success_register,207830,375878
+HMRC SA,sign_in_start,211641,383877
+HMRC SA,choosing,225340,399135
+HMRC SA,cancel_register,208231,376880
+HMRC SA,matching,210323,379512
+HMRC SA,idp_chosen,220512,393433
+HMRC SA,success_sign,208391,377483
+BIS RP,register_failure,18506,36428
+BIS RP,success_register,25143,43186
+BIS RP,sign_in_start,33391,61375
+BIS RP,choosing,51469,77902
+BIS RP,cancel_register,24953,43798
+BIS RP,matching,31451,54318
+BIS RP,idp_chosen,44451,69309
+BIS RP,success_sign,28106,50173
+HMRC PTA,register_failure,67102,122707
+HMRC PTA,success_register,73435,129162
+HMRC PTA,sign_in_start,80606,145540
+HMRC PTA,choosing,96892,160324
+HMRC PTA,cancel_register,73147,129659
+HMRC PTA,matching,78341,138420
+HMRC PTA,idp_chosen,91017,153421
+HMRC PTA,success_sign,75839,135201
+HMRC CC,register_failure,2664,4802
+HMRC CC,success_register,9676,11935
+HMRC CC,sign_in_start,18035,30572
+HMRC CC,choosing,36629,47705
+HMRC CC,cancel_register,9448,12604
+HMRC CC,matching,15498,22564
+HMRC CC,idp_chosen,29594,39311
+HMRC CC,success_sign,12538,18851
+DWP UCDS,register_failure,56374,107511
+DWP UCDS,success_register,62629,113846
+DWP UCDS,sign_in_start,70252,130784
+DWP UCDS,choosing,86807,145409
+DWP UCDS,cancel_register,61799,113629
+DWP UCDS,matching,68057,123941
+DWP UCDS,idp_chosen,79972,137150
+DWP UCDS,success_sign,65512,120669
+HMRC YSP,register_failure,80856,137088
+HMRC YSP,success_register,86834,143174
+HMRC YSP,sign_in_start,94901,160989
+HMRC YSP,choosing,109231,173201
+HMRC YSP,cancel_register,86778,143984
+HMRC YSP,matching,92160,153095
+HMRC YSP,idp_chosen,103622,166710
+HMRC YSP,success_sign,89968,150236
+DVLA F2D REPORT,register_failure,171,180
+DVLA F2D REPORT,success_register,7227,7364
+DVLA F2D REPORT,sign_in_start,15684,26167
+DVLA F2D REPORT,choosing,34263,43241
+DVLA F2D REPORT,cancel_register,6976,8008
+DVLA F2D REPORT,matching,13109,18062
+DVLA F2D REPORT,idp_chosen,27203,34825
+DVLA F2D REPORT,success_sign,10130,14333
+DEFRA RP,register_failure,3161,5998
+DEFRA RP,success_register,10196,13160
+DEFRA RP,sign_in_start,18401,31566
+DEFRA RP,choosing,37146,48909
+DEFRA RP,cancel_register,9932,13783
+DEFRA RP,matching,15911,23668
+DEFRA RP,idp_chosen,30097,40488
+DEFRA RP,success_sign,12910,19900
+DVLA VDL,register_failure,171,180
+DVLA VDL,success_register,7227,7364
+DVLA VDL,sign_in_start,15684,26167
+DVLA VDL,choosing,34263,43241
+DVLA VDL,cancel_register,6976,8008
+DVLA VDL,matching,13109,18062
+DVLA VDL,idp_chosen,27203,34825
+DVLA VDL,success_sign,10130,14333
+HMRC FF,register_failure,1146,2288
+HMRC FF,success_register,8175,9429
+HMRC FF,sign_in_start,16625,28230
+HMRC FF,choosing,35182,45260
+HMRC FF,cancel_register,7946,10111
+HMRC FF,matching,14057,20137
+HMRC FF,idp_chosen,28131,36861
+HMRC FF,success_sign,11086,16416

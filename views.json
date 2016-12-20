@@ -1,0 +1,506 @@
+{
+  "HMRC TE": [
+    {
+      "unique_page_views": 12252,
+      "segment": "register_failure",
+      "page_views": 21237
+    },
+    {
+      "unique_page_views": 19166,
+      "segment": "success_register",
+      "page_views": 28278
+    },
+    {
+      "unique_page_views": 27410,
+      "segment": "sign_in_start",
+      "page_views": 46708
+    },
+    {
+      "unique_page_views": 45549,
+      "segment": "choosing",
+      "page_views": 63336
+    },
+    {
+      "unique_page_views": 18932,
+      "segment": "cancel_register",
+      "page_views": 28926
+    },
+    {
+      "unique_page_views": 24858,
+      "segment": "matching",
+      "page_views": 38736
+    },
+    {
+      "unique_page_views": 38740,
+      "segment": "idp_chosen",
+      "page_views": 55242
+    },
+    {
+      "unique_page_views": 21986,
+      "segment": "success_sign",
+      "page_views": 35111
+    }
+  ],
+  "DVLA F2D RENEW": [
+    {
+      "unique_page_views": 171,
+      "segment": "register_failure",
+      "page_views": 180
+    },
+    {
+      "unique_page_views": 7227,
+      "segment": "success_register",
+      "page_views": 7364
+    },
+    {
+      "unique_page_views": 15684,
+      "segment": "sign_in_start",
+      "page_views": 26167
+    },
+    {
+      "unique_page_views": 34263,
+      "segment": "choosing",
+      "page_views": 43241
+    },
+    {
+      "unique_page_views": 6976,
+      "segment": "cancel_register",
+      "page_views": 8008
+    },
+    {
+      "unique_page_views": 13109,
+      "segment": "matching",
+      "page_views": 18062
+    },
+    {
+      "unique_page_views": 27203,
+      "segment": "idp_chosen",
+      "page_views": 34825
+    },
+    {
+      "unique_page_views": 10130,
+      "segment": "success_sign",
+      "page_views": 14333
+    }
+  ],
+  "HMRC SA": [
+    {
+      "unique_page_views": 203848,
+      "segment": "register_failure",
+      "page_views": 371779
+    },
+    {
+      "unique_page_views": 207830,
+      "segment": "success_register",
+      "page_views": 375878
+    },
+    {
+      "unique_page_views": 211641,
+      "segment": "sign_in_start",
+      "page_views": 383877
+    },
+    {
+      "unique_page_views": 225340,
+      "segment": "choosing",
+      "page_views": 399135
+    },
+    {
+      "unique_page_views": 208231,
+      "segment": "cancel_register",
+      "page_views": 376880
+    },
+    {
+      "unique_page_views": 210323,
+      "segment": "matching",
+      "page_views": 379512
+    },
+    {
+      "unique_page_views": 220512,
+      "segment": "idp_chosen",
+      "page_views": 393433
+    },
+    {
+      "unique_page_views": 208391,
+      "segment": "success_sign",
+      "page_views": 377483
+    }
+  ],
+  "BIS RP": [
+    {
+      "unique_page_views": 18506,
+      "segment": "register_failure",
+      "page_views": 36428
+    },
+    {
+      "unique_page_views": 25143,
+      "segment": "success_register",
+      "page_views": 43186
+    },
+    {
+      "unique_page_views": 33391,
+      "segment": "sign_in_start",
+      "page_views": 61375
+    },
+    {
+      "unique_page_views": 51469,
+      "segment": "choosing",
+      "page_views": 77902
+    },
+    {
+      "unique_page_views": 24953,
+      "segment": "cancel_register",
+      "page_views": 43798
+    },
+    {
+      "unique_page_views": 31451,
+      "segment": "matching",
+      "page_views": 54318
+    },
+    {
+      "unique_page_views": 44451,
+      "segment": "idp_chosen",
+      "page_views": 69309
+    },
+    {
+      "unique_page_views": 28106,
+      "segment": "success_sign",
+      "page_views": 50173
+    }
+  ],
+  "HMRC PTA": [
+    {
+      "unique_page_views": 67102,
+      "segment": "register_failure",
+      "page_views": 122707
+    },
+    {
+      "unique_page_views": 73435,
+      "segment": "success_register",
+      "page_views": 129162
+    },
+    {
+      "unique_page_views": 80606,
+      "segment": "sign_in_start",
+      "page_views": 145540
+    },
+    {
+      "unique_page_views": 96892,
+      "segment": "choosing",
+      "page_views": 160324
+    },
+    {
+      "unique_page_views": 73147,
+      "segment": "cancel_register",
+      "page_views": 129659
+    },
+    {
+      "unique_page_views": 78341,
+      "segment": "matching",
+      "page_views": 138420
+    },
+    {
+      "unique_page_views": 91017,
+      "segment": "idp_chosen",
+      "page_views": 153421
+    },
+    {
+      "unique_page_views": 75839,
+      "segment": "success_sign",
+      "page_views": 135201
+    }
+  ],
+  "HMRC CC": [
+    {
+      "unique_page_views": 2664,
+      "segment": "register_failure",
+      "page_views": 4802
+    },
+    {
+      "unique_page_views": 9676,
+      "segment": "success_register",
+      "page_views": 11935
+    },
+    {
+      "unique_page_views": 18035,
+      "segment": "sign_in_start",
+      "page_views": 30572
+    },
+    {
+      "unique_page_views": 36629,
+      "segment": "choosing",
+      "page_views": 47705
+    },
+    {
+      "unique_page_views": 9448,
+      "segment": "cancel_register",
+      "page_views": 12604
+    },
+    {
+      "unique_page_views": 15498,
+      "segment": "matching",
+      "page_views": 22564
+    },
+    {
+      "unique_page_views": 29594,
+      "segment": "idp_chosen",
+      "page_views": 39311
+    },
+    {
+      "unique_page_views": 12538,
+      "segment": "success_sign",
+      "page_views": 18851
+    }
+  ],
+  "DWP UCDS": [
+    {
+      "unique_page_views": 56374,
+      "segment": "register_failure",
+      "page_views": 107511
+    },
+    {
+      "unique_page_views": 62629,
+      "segment": "success_register",
+      "page_views": 113846
+    },
+    {
+      "unique_page_views": 70252,
+      "segment": "sign_in_start",
+      "page_views": 130784
+    },
+    {
+      "unique_page_views": 86807,
+      "segment": "choosing",
+      "page_views": 145409
+    },
+    {
+      "unique_page_views": 61799,
+      "segment": "cancel_register",
+      "page_views": 113629
+    },
+    {
+      "unique_page_views": 68057,
+      "segment": "matching",
+      "page_views": 123941
+    },
+    {
+      "unique_page_views": 79972,
+      "segment": "idp_chosen",
+      "page_views": 137150
+    },
+    {
+      "unique_page_views": 65512,
+      "segment": "success_sign",
+      "page_views": 120669
+    }
+  ],
+  "HMRC YSP": [
+    {
+      "unique_page_views": 80856,
+      "segment": "register_failure",
+      "page_views": 137088
+    },
+    {
+      "unique_page_views": 86834,
+      "segment": "success_register",
+      "page_views": 143174
+    },
+    {
+      "unique_page_views": 94901,
+      "segment": "sign_in_start",
+      "page_views": 160989
+    },
+    {
+      "unique_page_views": 109231,
+      "segment": "choosing",
+      "page_views": 173201
+    },
+    {
+      "unique_page_views": 86778,
+      "segment": "cancel_register",
+      "page_views": 143984
+    },
+    {
+      "unique_page_views": 92160,
+      "segment": "matching",
+      "page_views": 153095
+    },
+    {
+      "unique_page_views": 103622,
+      "segment": "idp_chosen",
+      "page_views": 166710
+    },
+    {
+      "unique_page_views": 89968,
+      "segment": "success_sign",
+      "page_views": 150236
+    }
+  ],
+  "DVLA F2D REPORT": [
+    {
+      "unique_page_views": 171,
+      "segment": "register_failure",
+      "page_views": 180
+    },
+    {
+      "unique_page_views": 7227,
+      "segment": "success_register",
+      "page_views": 7364
+    },
+    {
+      "unique_page_views": 15684,
+      "segment": "sign_in_start",
+      "page_views": 26167
+    },
+    {
+      "unique_page_views": 34263,
+      "segment": "choosing",
+      "page_views": 43241
+    },
+    {
+      "unique_page_views": 6976,
+      "segment": "cancel_register",
+      "page_views": 8008
+    },
+    {
+      "unique_page_views": 13109,
+      "segment": "matching",
+      "page_views": 18062
+    },
+    {
+      "unique_page_views": 27203,
+      "segment": "idp_chosen",
+      "page_views": 34825
+    },
+    {
+      "unique_page_views": 10130,
+      "segment": "success_sign",
+      "page_views": 14333
+    }
+  ],
+  "DEFRA RP": [
+    {
+      "unique_page_views": 3161,
+      "segment": "register_failure",
+      "page_views": 5998
+    },
+    {
+      "unique_page_views": 10196,
+      "segment": "success_register",
+      "page_views": 13160
+    },
+    {
+      "unique_page_views": 18401,
+      "segment": "sign_in_start",
+      "page_views": 31566
+    },
+    {
+      "unique_page_views": 37146,
+      "segment": "choosing",
+      "page_views": 48909
+    },
+    {
+      "unique_page_views": 9932,
+      "segment": "cancel_register",
+      "page_views": 13783
+    },
+    {
+      "unique_page_views": 15911,
+      "segment": "matching",
+      "page_views": 23668
+    },
+    {
+      "unique_page_views": 30097,
+      "segment": "idp_chosen",
+      "page_views": 40488
+    },
+    {
+      "unique_page_views": 12910,
+      "segment": "success_sign",
+      "page_views": 19900
+    }
+  ],
+  "DVLA VDL": [
+    {
+      "unique_page_views": 171,
+      "segment": "register_failure",
+      "page_views": 180
+    },
+    {
+      "unique_page_views": 7227,
+      "segment": "success_register",
+      "page_views": 7364
+    },
+    {
+      "unique_page_views": 15684,
+      "segment": "sign_in_start",
+      "page_views": 26167
+    },
+    {
+      "unique_page_views": 34263,
+      "segment": "choosing",
+      "page_views": 43241
+    },
+    {
+      "unique_page_views": 6976,
+      "segment": "cancel_register",
+      "page_views": 8008
+    },
+    {
+      "unique_page_views": 13109,
+      "segment": "matching",
+      "page_views": 18062
+    },
+    {
+      "unique_page_views": 27203,
+      "segment": "idp_chosen",
+      "page_views": 34825
+    },
+    {
+      "unique_page_views": 10130,
+      "segment": "success_sign",
+      "page_views": 14333
+    }
+  ],
+  "HMRC FF": [
+    {
+      "unique_page_views": 1146,
+      "segment": "register_failure",
+      "page_views": 2288
+    },
+    {
+      "unique_page_views": 8175,
+      "segment": "success_register",
+      "page_views": 9429
+    },
+    {
+      "unique_page_views": 16625,
+      "segment": "sign_in_start",
+      "page_views": 28230
+    },
+    {
+      "unique_page_views": 35182,
+      "segment": "choosing",
+      "page_views": 45260
+    },
+    {
+      "unique_page_views": 7946,
+      "segment": "cancel_register",
+      "page_views": 10111
+    },
+    {
+      "unique_page_views": 14057,
+      "segment": "matching",
+      "page_views": 20137
+    },
+    {
+      "unique_page_views": 28131,
+      "segment": "idp_chosen",
+      "page_views": 36861
+    },
+    {
+      "unique_page_views": 11086,
+      "segment": "success_sign",
+      "page_views": 16416
+    }
+  ]
+}
