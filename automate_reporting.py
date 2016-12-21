@@ -54,15 +54,10 @@ def aggregate_automate(rpentity):
         return 'HMRC PTA'
     elif 'https://prod-left.tax.service.gov.uk/SAML2/TAI' in rpentity:
         return 'HMRC TE'
+    elif 'ttps://prod.redundancy-payments.org.uk/' in rpentity:
+        return 'Redundancy payments'
     else:
-        return 'DEFRA RP' #if it isn't then return the original url
-
-
-def aggregate_f2d(rpentity):
-	if 'www.fitness-to-drive.service.gov.uk' in rpentity: #check it the url is in the variable rpentity
-		return 'https://www.fitness-to-drive.service.gov.uk/' #if it is return this url 
-	else:
-		return rpentity #if it isn't then return the original url
+        return rpentity
 
 def get_date(date):
     full_timestamp = date[:date.find('T')]
@@ -144,25 +139,33 @@ def verification_data():
 
     return daily_resultdf, weekly_resultdf
 
-
-
 def format_vf_df(df,type): #type is either NEW or RETURNING
 
     if type == 'new':
         df = df[df['Response type']=='NEW']
         df.fillna(0, inplace=True)
-        df = df[['Timestamp','DEFRA RP','DVLA VDL','DWP UCDS','HMRC CC','HMRC FANDF','HMRC PTA','HMRC SA','HMRC TE','HMRC YSP']]
-        df['total'] = df.sum(axis=1)
+        df = df[['Timestamp','DEFRA RP','DVLA VDL','DWP UCDS','HMRC CC','HMRC FANDF','HMRC PTA','HMRC SA','HMRC TE','HMRC YSP','DVLA F2D RENEW','DVLA F2D REPORT']]
+
 
     else:
         df = df[df['Response type']=='RETURNING']
         df.fillna(0, inplace=True)
-        df = df[['Timestamp','DEFRA RP','DVLA VDL','DWP UCDS','HMRC CC','HMRC FANDF','HMRC PTA','HMRC SA','HMRC TE','HMRC YSP']]
-        df['total'] = df.sum(axis=1)
+        df = df[['Timestamp','DEFRA RP','DVLA VDL','DWP UCDS','HMRC CC','HMRC FANDF','HMRC PTA','HMRC SA','HMRC TE','HMRC YSP','DVLA F2D RENEW','DVLA F2D REPORT']]
+        
     return df
 
+def totals(df):
+    dfcolumns = list(df.columns)
+    dfcolumns.remove('Timestamp')
+    df['total'] = df[dfcolumns].sum(axis=1)
+    return df['total']
 
+def set_cols(df):
+    df['total'] = totals(df)
 
+    df = df[['Timestamp','total','DEFRA RP','DVLA VDL','DWP UCDS','HMRC CC','HMRC FANDF','HMRC PTA','HMRC SA','HMRC TE','HMRC YSP','DVLA F2D RENEW','DVLA F2D REPORT']]
+
+    return df
 
 def get_final_df():
     daily_resultdf, weekly_resultdf = verification_data()
@@ -170,14 +173,22 @@ def get_final_df():
     daily_resultdf = daily_resultdf.groupby(['RP name','Response type']).resample('D')['Response type'].count()
     daily_resultdf = daily_resultdf.unstack(level=0)
     daily_resultdf.reset_index(inplace=True)
+    # daily_resultdf['total'] = totals(daily_resultdf)
+
+
     weekly_resultdf = weekly_resultdf.groupby(['RP name','Response type']).resample('W')['Response type'].count()
     weekly_resultdf = weekly_resultdf.unstack(level=0)
     weekly_resultdf.reset_index(inplace=True)
+    # weekly_resultdf['total'] = totals(weekly_resultdf)
 
     daily_new_pivot = format_vf_df(daily_resultdf,'new')
+    daily_new_pivot = set_cols(daily_new_pivot)
     weekly_new_pivot = format_vf_df(weekly_resultdf,'new')
+    weekly_new_pivot = set_cols(weekly_new_pivot)
     daily_returning_pivot = format_vf_df(daily_resultdf,'returning')
+    daily_returning_pivot = set_cols(daily_returning_pivot)
     weekly_returning_pivot = format_vf_df(weekly_resultdf,'returning')
+    weekly_returning_pivot = set_cols(weekly_returning_pivot)
 
     return daily_new_pivot, weekly_new_pivot, daily_returning_pivot, weekly_returning_pivot
 

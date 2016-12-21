@@ -28,7 +28,7 @@ def updatesheet(spreadsheet_name, sheet_name,updatedf,start_cell,length_new_data
 	gc = spreadsheet_setup()
 
 
-	print("Hello now there")
+	print("Data to sheets")
 	num_lines, num_columns = updatedf.shape
 	spreadsheet = gc.open(spreadsheet_name)
 	worksheet = spreadsheet.worksheet(sheet_name)
