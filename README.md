@@ -2,8 +2,8 @@
 
 The purpopse of this script is to 
  - Collect data from spreadsheets emailed to the team 
- - Aggregate the data to daily and weekly data sets
- - collect data from the PIWIK api
+ - Aggregate the data to show daily and weekly values
+ - collect data from PIWIK using the PIWIK api
  - Output the collated data in to Google Sheets
 
 # Instructions
@@ -31,9 +31,6 @@ Follow the instructions on Authentication in this blog post http://pbpython.com/
  
 The is a few things you need to do when runnging this script
 
- 1 You need to copy all the csv files to the relavent folder i.e. all daily verification data needs to go into the data_csvs/verification/daily folder
- 2 Do not put dublicatte files as this duplicated data will ba aggregates and you will include duplicated data into your reporting 
- 3 If you make changes to the script and are commiting them back up to GitHub make sure that you do not include the data in the push - remove all files and store them locally before you push back to GitHub
- 
- 
- 
+ - You need to copy all the csv files to the relavent folder i.e. all daily verification data needs to go into the data_csvs/verification/daily folder
+ - Do not put dublicate files into any of the data_csvs folders as this duplicated data will also be aggregated and you will include duplicated data into your reporting 
+ - If you make changes to the script and are commiting them back up to GitHub make sure that you do not include the data in the push - remove all files and store them locally before you push back to GitHub
