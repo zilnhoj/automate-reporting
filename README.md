@@ -2,8 +2,8 @@
 
 The purpopse of this script is to 
  - Collect data from spreadsheets emailed to the team 
- - Aggregate the data to daily and weekly data sets
- - collect data from the PIWIK api
+ - Aggregate the data to show daily and weekly values
+ - collect data from PIWIK using the PIWIK api
  - Output the collated data in to Google Sheets
 
 # Instructions
@@ -59,10 +59,5 @@ When you are running the script for the first time you need to
   - if you want to run the script in iPython type ipython 
   - then type run data_to_sheets.py
   - if you don't want to use ipython type python data_to_scripts.py
+  
 
-
-
-
-
-
- 
