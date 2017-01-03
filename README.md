@@ -2,8 +2,8 @@
 
 The purpopse of this script is to 
  - Collect data from spreadsheets emailed to the team 
- - Aggregate the data to daily and weekly data sets
- - collect data from the PIWIK api
+ - Aggregate the data to show daily and weekly values
+ - collect data from PIWIK using the PIWIK api
  - Output the collated data in to Google Sheets
 
 # Instructions
@@ -31,6 +31,7 @@ You will need to:
  - share the email address given in your client_secrets.json file with your Google drive spreadsheet
  
 There is a few things you need to be aware of when running this script
+
 
  - You need to copy all the csv files to the relavent folder i.e. all daily verification data needs to go into the data_csvs/verification/daily folder
  - Do not put dublicate files into the folder as all data in the folder will ba aggregates and you will isntroduce duplicated data into your reporting 
@@ -60,8 +61,3 @@ When you are running the script for the first time you need to
  - if you don't want to use ipython type python data_to_scripts.py
 
 
-
-
-
-
- 
