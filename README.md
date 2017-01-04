@@ -1,6 +1,6 @@
 # automate-reporting
 
-The purpopse of this script is to 
+The purpose of this script is to 
  - Collect data from spreadsheets emailed to the team 
  - Aggregate the data to show daily and weekly values
  - collect data from PIWIK using the PIWIK api
@@ -27,7 +27,9 @@ In your creds folder you need to make a JSON file which contains your PIWIK toke
 The JSON file should be in the format 
 
 {
+
 	"token" : "foo"
+
 }
 Replace "foo" with your PIWIK token
 You need to call this file piwik_token.json
@@ -65,11 +67,11 @@ Every subsequent times you run the script you need to follow these instructions
 
  - open up the data_to_sheets file in your favourite text editor 
  - look for the line - 'piwik_data = get_piwik_data('2016-11-07,2016-11-13')' - 
- 	this line sets the date period for the PIWIK API and should be match the time frame for your latest weekly csv data set.  If you need to get data for a number of weeks you need to run the script for each separate week changing the date here each time 
+ 	this line sets the date period for the PIWIK API and should be match the time frame for your latest weekly csv data set.  If you need to get data for a number of weeks you need to run the script for each separate week changing the date here each time.
+
  	The first date is the start date of the time period and the second date is the end date for the time period
  - in the terminal window make sure you are in the automate-reporting folder
- - if you are not in your virtual enfironment type source bin/activate.  When you are in your virtual enfironment you will see (automate-reporting) preceeding your commant prompt
- - this activates your virtual environment 
+ - if you are not in your virtual environment type source bin/activate.  When you are in your virtual enfironment you will see (automate-reporting) preceeding your commant prompt
  - if you want to run the script in iPython type ipython 
  - then type run data_to_sheets.py
  - if you don't want to use ipython type python data_to_scripts.py
