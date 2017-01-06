@@ -123,6 +123,7 @@ def verification_data():
                 
             # daily_resultdf.reset_index(inplace=True)
             daily_resultdf['frequency'] = freq
+            print(daily_resultdf.columns)
             daily_resultdf.index = pd.to_datetime(daily_resultdf['Timestamp'])
             # daily_resultdf = daily_resultdf.groupby(['date','RP name','Response type'], as_index=False).count()
 
